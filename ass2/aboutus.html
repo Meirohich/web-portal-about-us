@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>О нас</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="mystyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg">
 </head>
 <body>
@@ -41,7 +41,7 @@
         </nav>
     </header>
 
-    <section  id="chip">
+    <section id="chip">
         <pre class="slogan" id="slogan">Наша миссия</pre>
         <p id="slogan1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </section>
@@ -83,26 +83,35 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+    <div class="Time" id="Time">
+        <p class="Time" id="pTime">Часы работы</p>
+        <p class="Time1" id="pTime1">Заходите к нам!</p>
+        <pre class="Date" id="Date">ПН–ПТ: 9:00–18:00
+СБ: 10:00–14:00
+ВС: выходной</pre>
+    </div>
+
+    <div class="Questions" id="Questions">
+        <div class="Contacts" id="montacts">
+            <p class="Time" id="qwe">Контакты</p>
+            <p class="Date" id="meken">ул. Улы Дала, 1, Нур-Султан, 160001, Казахстан</p>
+            <p class="Date" id="email">211163@astanait.edu.kz</p>
+            <p class="Date" id="telefon">+7-725-312-05-66</p>
+
+
         </div>
-    </section>
+        <div class="Form">
+
+            <input class="name" type="text" id="inname" style="padding-left: 20px;" value required placeholder="Имя" maxlength="100">
+            <input class="name" type="text" id="insurname" style="padding-left: 20px;" value required placeholder="Фамилия" maxlength="100">
+            <input class="name" type="number" id="innumber" style="padding-left: 20px;" value required placeholder="Номер" maxlength="100">
+            <input class="name" type="text" id="inadress" style="padding-left: 20px;" value required placeholder="Адрес" maxlength="100">
+            <input class="tema" type="text" id="intheme" style="padding-left: 20px;" value required placeholder="Тема" maxlength="100">
+            <textarea class="name" type="text" id="incomment" style="padding-left: 20px;" value required placeholder="Добавьте сообщение..." maxlength="1000"></textarea>
+            <button class="Send" id="QWE">Отправить</button>
+
+        </div>
+    </div>
 
     <footer style="width: 100%;">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
