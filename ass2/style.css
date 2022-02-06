@@ -1,0 +1,144 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+pre.slogan {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+#slogan1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#chip {
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+}
+
+#QWE{
+    color: white;
+    cursor: pointer;
+}
+
+div.Time {
+    width: 100%;
+    padding: 100px;
+    background-color: #FAF7F5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.Time {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 102, 227);
+}
+
+p.Time1 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p.Date {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+
+pre.Date {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+
+div.Question {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px;
+    position: relative;
+    float: left;
+}
+
+div.Contacts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    float: left;
+}
+
+div.Form {
+    position: static;
+    display: inline-block;
+    width: 50%;
+    padding: 80px 100px;
+    align-items: center;
+}
+
+input.name {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 40%;
+    height: 42px;
+    position: relative;
+    margin: 0px 0px 10px 0;
+    font-weight: bolder;
+}
+
+input.tema {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 80%;
+    height: 42px;
+    position: relative;
+    margin: 0px 0px 10px 0;
+    font-weight: bolder;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+}
+
+
+
+button.Send {
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    margin: 0px 0px 20px 0;
+    font-weight: bolder;
+}
+
+    button.Send:hover {
+        opacity: 0.7;
+    }
